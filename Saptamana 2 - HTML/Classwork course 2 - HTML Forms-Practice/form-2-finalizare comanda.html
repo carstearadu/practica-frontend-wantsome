@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Finalizare comanda</title>
+    </head>
+    <body>
+        <h2>Finalizare comanda</h2>
+        <label for="nume">Nume*:</label>
+        <input type="text" name="nume" required placeholder="Nume">
+        <br><br>
+        <label for="prenume">Prenume*:</label>
+        <input type="text" name="prenume" required placeholder="Prenume">
+        <br><br>
+        <label for="prenume">CNP*:</label>
+        <input type="text" name="cnp" required placeholder="CNP" maxlength="13"><br><br>
+        <label for="card">Numar card*:</label>
+        <input type="number" name="card" required placeholder="Numar card" maxlength="16">
+        <br><br>
+        <label for="datanasterii">Data nasterii*:</label>
+        <input type="date" name="datanasterii" min="1990-01-01" value="2019-01-01">
+        <br><br>
+        <label for="telefon">Numar de telefon*:</label>
+        <input type="tel" name="telefon" required placeholder="Numar de telefon" maxlength="10">
+        <br><br>
+        <label for="platacard">Platiti cu cardul?*:</label><br>
+        <input type="radio" name="platacard" value="da">Da<br>
+        <input type="radio" name="platacard" value="nu">Nu<br>
+        <label for="adresa">Adresa*:</label>
+        <input type="text" name="adresa" required placeholder="Adresa dumneavoastra"><br><br>
+        <label for="localitate">Localitatea:*</label>
+        <select>
+                <option value="Suceava" name="localitate">Suceava</option>
+                <option value="Botosani"name="localitate">Botosani</option>
+                <option value="Vaslui"name="localitate">Vaslui</option>
+                <option value="Iasi"name="localitate">Iasi</option>
+        </select><br><br>
+
+        <label for="judet">Judetul:*</label>
+        <select>
+                <option value="Suceava" name="judet">Suceava</option>
+                <option value="Botosani"name="judet">Botosani</option>
+                <option value="Vaslui"name="judet">Vaslui</option>
+                <option value="Iasi"name="judet">Iasi</option>
+        </select><br><br>
+
+        <label for="tara">Tara:*</label>
+        <select>
+                <option value="Romania" name="judet">Romania</option>
+                <option value="Ungaria" name="judet">Ungaria</option>
+                <option value="Ucraina" name="judet">Ucraina</option>
+                <option value="Bulgaria" name="judet">Bulgaria</option>
+        </select>
+        <br><br>
+        <label for="precizari">Alte precizari:</label><br>
+        <textarea name="precizari" rows="10" cols="50" maxlength="256" placeholder="Scrie un comentariu..."></textarea>
+    </body>

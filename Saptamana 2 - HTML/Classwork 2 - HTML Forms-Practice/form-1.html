@@ -1,0 +1,41 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>HTML-Forms-Practice</title>
+    </head>
+
+    <body>
+        <form>
+           <label for="nume">Nume*:</label>
+           <input type="text" name="nume" required placeholder="Nume">
+           <br><br>
+           <label for="prenume">Prenume*:</label>
+           <input type="text" name="prenume" required placeholder="Prenume">
+           <br><br>
+           <label for="varsta">Varsta*:</label>
+           <input type="number" name="varsta" required min="18" max="100" placeholder="Varsta">
+           <br><br>
+           <label for="experienta">Ani de experienta*:</label>
+           <input type="range" name="experienta" min="1" max="5">
+           <br><br>
+           <label for="datanasterii">Zi de nastere*:</label>
+           <input type="date" name="datanasterii" min="1990-01-01" value="2019-01-01">
+           <br><br>
+           <label for="luna">Luna:</label>
+           <input type="month" name="luna">
+           <br><br>
+           <label for="ora">Ora:</label>
+           <input type="time" name="ora">
+           <br><br>
+           <label for="limbaj">Ce limbaj de programare preferi?*</label><br>
+           <input type="checkbox" name="limbaj" value="Java">Java<br>
+           <input type="checkbox" name="limbaj" value=".NET">.NET<br>
+           <input type="checkbox" name="limbaj" value="JavaScript">JavaScript<br><br>
+           <label for="limbaj">Ce limbaj de programare preferi?(2)*</label><br>
+           <input type="radio" name="limbaj" value="Java">Java<br>
+           <input type="radio" name="limbaj" value=".NET">.NET<br>
+           <input type="radio" name="limbaj" value="JavaScript">JavaScript<br>
+           <input type="submit" value="Trimite">
+        </form>
+    </body>
+</html>

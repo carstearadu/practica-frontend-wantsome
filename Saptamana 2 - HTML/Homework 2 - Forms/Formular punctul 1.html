@@ -1,0 +1,45 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Formular: cerinta 1</title>
+    </head>
+    <body>
+        <form>
+            <label for="nume">Nume*:</label>
+            <input type="text" name="nume" required placeholder="Numele dumneavoastra">
+            <br><br>
+            <label for="prenume">Prenume*:</label>
+            <input type="text" name="prenume" required placeholder="Prenumele dumneavoastra"><br><br>
+            <label for="sex">Sex:</label><br>
+            <input type="radio" name="sex" value="Masculin">Masculin<br>
+            <input type="radio" name="sex" value="Feminin">Feminin<br>
+            <input type="radio" name="sex" value="Other">Other<br><br>
+            <label for="varsta">Varsta:</label><br>
+            <input type="number" name="varsta" min="18" max="85"></label><br><br>
+
+            <label for="tara">Tara:</label><br>
+            <select>
+                    <option value="Romania" name="tara">Romania</option>
+                    <option value="Ungaria" name="tara">Ungaria</option>
+                    <option value="Ucraina" name="tara">Ucraina</option>
+                    <option value="Bulgaria" name="tara">Bulgaria</option>
+            </select><br><br>
+            
+            <label for="oras">Oras:</label><br>
+            <input type="text" name="oras" placeholder="Orasul in care locuiti"><br><br>
+            <label for="adresa">Adresa:</label><br>
+            <input type="text" name="adresa" placeholder="Adresa dumneavoastra"><br><br>
+            <label for="codpostal">Cod postal:</label><br>
+            <input type="text" name="codpostal" placeholder="Codul postal"><br><br>
+            <label for="email">Email*:</label><br>
+            <input type="email" name="email" required placeholder="Adresa de email"><br><br>
+            <label for="comentarii">Comentarii:</label><br>
+            <textarea name="comentarii" rows="10" cols="50" maxlength="256" placeholder="Scrie un comentariu..."></textarea><br><br>
+            <label for="browse">Ataseaza CV:</label><br>
+            <input type="file" name="browse"><br><br>
+            <label for="trimite">Trimite/Reseteaza</label><br>
+            <input type="submit" name="trimite" value="Trimite">
+            <input type="reset" name="trimite" value="Reseteaza">
+        </form>
+    </body>
+</html>

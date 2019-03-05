@@ -1,0 +1,37 @@
+#style2{
+    color:red;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+
+a[href="https://wantsome.ro"]{ 
+    color: blue;
+  }
+
+a[href="www.google.com"]{ 
+    color: yellow;
+  }
+
+a:hover{
+    color: magenta;
+}
+
+.style1 :first-child{
+    color: #ff9933
+}
+
+#style2 :last-child{
+    color:#d6d6c2
+}
+
+.style3 :nth-child(3n){
+    color: #00ccff
+}
+
+#style3 > p {
+    color: #99ff33; 
+}
+
+#style3 h2 + h3 {
+    color: #ff66ff;
+}

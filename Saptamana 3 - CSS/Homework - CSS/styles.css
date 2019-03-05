@@ -1,0 +1,63 @@
+#listtest a:link{
+    color:red;
+}
+
+.div1 a:link{
+    color: green;
+}
+
+.div1{
+    border: 1px solid black;
+}
+
+.div2 a:link{
+    color: green;
+}
+
+.div2{
+    border: 1px solid black;
+}
+
+.div3 a:link{
+    color: #C55;
+}
+
+.div3{
+    border: 1px solid black;
+}
+
+.div4 a:link{
+    color: green;
+}
+
+.div4{
+    border: 1px solid black
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    color: #3399ff;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    color: #3399ff;
+}
+
+.assemble{
+    border: 1px solid black;
+    border-width: 10px;
+    margin-right: 1200px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-left:70px;
+    margin-top: 20px;
+}
+
+.description{
+    font-family: 'Luckiest Guy', cursive;
+    margin-left:40px;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.master{
+    width: 200px;
+    height: 200px;
+    top:50%;
+    left:50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.patrat_1{
+    position: absolute;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+.patrat_2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    top: 100px;
+    left: 100px;
+}
+
+.patrat_3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+    background-color: magenta;
+}

@@ -1,0 +1,52 @@
+ul :nth-child(even){
+    color: limegreen;
+}
+
+ul :nth-child(3){
+    background-color: blue;
+}
+
+ul :first-child{
+    border-top: 1px solid green;
+}
+
+ul :nth-child(7){ 
+    border-bottom: 5px dotted blue;
+}
+
+ul :nth-child(5) a:hover{
+    background-color: gray;
+}
+
+ul :nth-child(2){
+    list-style-type:none;
+}
+
+ul :nth-child(5){
+    list-style-type:none;
+}
+
+input[type=text]:hover{
+    background-color: gray;
+}
+
+form div:first-child input {
+    color: green;
+}
+
+form div:nth-child(2) input {
+    color: blue;
+}
+
+input[type=password] {
+    color: white;
+}
+
+input[type=email]::selection {
+    background-color: #ffff99;
+    color:	#FFB6C1;
+}
+
+input[type=submit]:hover {
+    color: red;
+}

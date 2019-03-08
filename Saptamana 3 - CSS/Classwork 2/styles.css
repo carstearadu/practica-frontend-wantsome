@@ -1,0 +1,32 @@
+h1{
+    border: 2px solid red;
+    background-color: #6A6;
+    padding: 10px; 
+}
+
+ul{
+    margin: 15px;
+    background-color: #DE1E7E
+}
+
+.paragraf1{
+    margin: 15px;
+    width: 500px;
+    height: 300px;
+    border: 2px dotted black;
+    background-color: #FB1;
+}
+
+.paragraf2{
+    margin: 15px;
+    width: 500px;
+    height: 300px;
+    border: 2px dotted black;
+    background-color: #FB1;
+}
+
+a {
+    border-bottom: 2px dashed blue;
+    background-color: #a1a1a1;
+}
+

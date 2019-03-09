@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formular de contact</title>
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+    </head>
+    <body>
+        <div class="whole">
+            <div id="inside">
+                <h1>Formular de contact</h1><br>
+                <h3>Va rugam sa completati campurile de mai jos.</h3>
+                <p><b>* -Campuri obligatorii</b></p>
+
+                <form>
+                    <div class="divnume" style="float:left">
+                    <label for="name">Nume:*</label>
+                        <input name="name" type="text" placeholder="Numele dumneavoastra" required></div>
+
+                    <div class="divprenume" style="float:left">
+                     <label for="name">Prenume:*</label>
+                        <input name="name" type="text" placeholder="Prenumele dumneavoastra" required></div><br><br><br>
+
+                    <label for="email">Adresa de email:*</label><br>
+                        <input name="email" type="email" placeholder="adresa-dumneavoastra@outlook.com" required><br><br>
+
+                    <label for="phone">Numarul dumneavoastra:*</label><br>
+
+                        <input name="phone" type="tel" placeholder="0000" maxlength="3">
+                    <div class="numar2" style="float:left">
+                         <input name="phone" type="tel" placeholder="000" maxlength="3">
+                    </div>
+
+                    <div class="numar3" style="float:left">
+                        <input name="phone" type="tel" placeholder="000" maxlength="4">
+                    </div>
+                    <br><br>
+
+                        <label for="subiect">Subiectul mesajului:*</label><br>
+                        <select name="subiect" required>
+                            <option value="factura">Intarzierea facturii de curent</option>
+                            <option value="salam">Florin Salam nu mai canta in Romania</option>
+                            <option value="bmw">Vand BMW 316i impekabil optik full fara piele si navigatie</option>
+                            <option value="bmw">Ce se intampla daca mananc sapun lichid.</option>
+                        </select><br><br>
+
+                     <label for="mesaj">Mesajul dumneavoastra:*</label>
+                     <textarea id="mesaj" name="mesaj" rows="4" cols="70" required>Scrieti mesajul dumneavoastra.</textarea><br><br>  
+
+
+                    <input name="trimiteMesaj" type="submit" value="Trimite">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

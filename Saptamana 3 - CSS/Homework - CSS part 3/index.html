@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finalizare comanda</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Volkhov" rel="stylesheet">  
+    </head>
+    <body>
+        <div class="whole">
+            <div id="inside">
+                <h1>Finalizare comanda</h1>
+                <p><b>* -Campuri obligatorii</b></p>
+                <form>
+                    <label for="name">Nume:*</label>
+                        <input name="name" type="text" placeholder="Numele dumneavoastra" required><br>
+
+                     <label for="adresafizica">Adresa:*</label>
+                        <input name="adresafizica" type="text" placeholder="Adresa fizica 1" required maxlength="25"><br>
+                        <input name="adresafizica2" type="text" placeholder="Adresa fizica 2" required maxlength="25"><br>
+
+                    <label for="email">Adresa de email:*</label>
+                        <input name="email" type="email" placeholder="adresa-dumneavoastra@outlook.com" required><br>
+
+                    <label for="Cantitate">Cantitate:*</label>
+                        <select name="Cantitate" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select><br>
+
+                        <label for="livrare">Metoda de livrare:*</label>
+                        <select name="livrare" required>
+                            <option value="curier">FAN Courier</option>
+                            <option value="urgent">Urgent Cargus</option>
+                            <option value="posta">Posta Romana</option>
+                        </select><br>
+
+                    <label for="altaAdresa">Livrare la:*</label><br>
+                        Adresa curenta <input name="altaAdresa" type="radio" value="adresaCurenta" required><br>
+                        Alta adresa <input name="altaAdresa" type="radio" value="altaAdresa" required><br>
+
+                    <label for="voucher">Voucher-discount:</label>
+                        <input name="voucher" type="text" placeholder="Cod voucher"><br>
+
+                    <label for="terms">Termeni si conditii:*</label><br>
+                        <input name="terms" type="radio" required>De acord
+                        <input name="terms" type="radio" required>Nu sunt de acord<br><br>
+
+                    <input name="trimiteComanda" type="submit" value="Trimite comanda">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

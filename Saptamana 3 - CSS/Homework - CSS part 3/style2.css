@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    font-size: 23px; 
+}
+
+body{
+    background-image: url("http://avante.biz/wp-content/uploads/Minimal-Wallpaper/Minimal-Wallpaper-019.jpg");
+}
+
+.divprenume{
+    position: relative;
+    left: 25px;
+}
+
+.whole {
+    display: inline-block;
+    border: 1px solid lightgray;
+
+    width: 710px;
+    height: 800px;
+}
+
+#inside {
+    display: inline-block;
+    background-color: #ffebdf;
+    width: 700px;
+    height: 790px;
+    margin: 5px;    
+
+}
+
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Libre Franklin', sans-serif;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    left: 76px;
+}
+
+p {
+    position: relative;
+    color: darkgray;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    right: 10px;
+
+}
+
+form {
+    margin: 20px 80px; 
+    text-align: left;
+}
+
+label {
+    font-size:18px;
+    font-weight:700;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+
+input[type="submit"] {
+    background-color: #4c7ce3;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+}
+
+input[type=submit]:hover {
+    background-color: #f7f7f7;
+    color: #28a7d8;   
+}
+input[type=submit]{
+    height: 30px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1px;
+    background-color: #28a7d8;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus {
+    background-color: #FFFCE2;
+    border: 2px solid #249be3;
+    border-radius: 2px;
+    outline: none;
+}
+
+input[type="email"]{
+    width: 515px;
+}
+
+select{
+    width: 520px;
+}
+
+#mesaj{
+    height: 150px;
+}
+#mesaj:focus{
+    background-color: #FFFCE2;
+    border: 2px solid #249be3;
+    border-radius: 3px;
+    outline: none;
+}

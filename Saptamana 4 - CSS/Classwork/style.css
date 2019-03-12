@@ -1,0 +1,14 @@
+.image{
+    margin: 0 auto;
+    background-image: url(https://a-z-animals.com/media/animals/images/470x370/giraffe_10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    width: 500px;
+    height: 500px;
+    border: 15px dotted red;
+    background-size: cover;
+    padding: 25px;
+    background-clip: content-box;
+
+}

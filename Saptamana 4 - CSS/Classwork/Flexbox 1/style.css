@@ -1,0 +1,41 @@
+header{
+    background-color: purple;
+    height: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+}
+
+#left-sidebar {
+    background-color: blue;
+    flex-grow: 1;
+    height: 300px;
+}
+
+#content {
+    background-color: lightgray;
+    flex-grow: 2;
+    height: 300px;
+}
+
+#right-sidebar {
+    background-color: limegreen;
+    flex-grow: 1;
+    height: 300px;
+    
+}
+
+footer{
+    background-color: brown;
+    height: 200px;
+}
+
+@media only screen and (max-width: 768px)       /*<---specificity-cascading- last element*/
+{
+    main{
+        flex-direction: column;
+    }
+}

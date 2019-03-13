@@ -1,0 +1,93 @@
+body{
+    background: #16222A;  
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A); 
+    background: linear-gradient(to right, #3A6073, #16222A); 
+    margin: 10px;
+
+}
+
+.main{
+    display: grid;
+    height: 900px;
+    width: 900px;
+    grid-gap: 20px;
+    text-align: left;
+    /* grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; */
+
+
+}
+
+.topleft{
+    background-image: url("https://www.baanvelgen.com/media/catalog/product/cache/4/image/85e4522595efc69f496374d01ef2bf13/b/b/bbs-chr_mb_6.jpg");
+    background-repeat: no-repeat;
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    height: 500px;
+    width: 500px;
+
+}
+
+.topright{
+    background-image: url("http://www.bptstore.com/assets/images/gtx3582r.jpg");
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    height: 485px;
+    width: 480px;
+
+
+}
+
+.botleft{
+    background-image: url("https://competitionmotorsport.com/media/catalog/product/cache/926507dc7f93631a094422215b778fe0/b/r/brembo-p-caliper-4-piston-2-piece-ccm-r-360mm-drilled-yellow-med__13885.1499717512.1280.1280.jpg");
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start:2;
+    grid-row-end: 2;
+    height: 458px;
+    width: 500px;
+
+}
+
+.botright{
+    background-image: url("https://www.audioledcar.com/15569-large_default/kit-suspension-bilstein-b12-pro-kit-peugeot-405.jpg");
+    background-repeat: repeat-x;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    height: 500px;
+    width: 482px;
+}
+
+.text{
+    position: relative;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    background-color:rgba(223, 226, 14, 0.6);
+    left: 7px;
+    top: 7px;
+    border: 2px solid black;
+    
+}
+
+@media only screen and (max-width: 768px)       /*<--- nu am reusit sa-l fac sa functioneze*/
+{
+    .main{
+        flex-direction: column;
+    }
+}

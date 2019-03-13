@@ -1,0 +1,63 @@
+.grid{
+    display: grid;
+    background: white;
+    height: 1000px;
+    width: 1200px;
+    grid-gap: 20px;
+    text-align: left;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 25% 25% 25%;
+}
+
+.vertical{
+    background-color: #81D8D0;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.tiles{
+    background-color: #eef014;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end:3;
+
+}
+
+.wide{
+    background-color: #fd5151;
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+
+.middle{
+    background-color: #3374ff;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;  
+
+}
+
+.tall{
+    background-color: #36c331;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 5; 
+
+}

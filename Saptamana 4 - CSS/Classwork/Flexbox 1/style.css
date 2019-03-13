@@ -33,7 +33,7 @@ footer{
     height: 200px;
 }
 
-@media only screen and (max-width: 768px)       /*<---specificity-cascading- last element*/
+@media only screen and (max-width: 768px)       /*<-- nu am reusit sa-l fac sa functioneze.*/
 {
     main{
         flex-direction: column;

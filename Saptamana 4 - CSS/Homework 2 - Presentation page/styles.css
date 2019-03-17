@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: white;
+    background-image: url(banner.jpg);
+    height: 320px;
+    margin: auto;
+    text-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.titlu {
+    margin: auto;
+    vertical-align: middle;
+}
+
+header nav{
+    text-align: right;
+    padding: 20px;
+}
+
+header nav a {
+    padding: 10px;
+}
+
+header nav .border {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sectiune {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.box1 {
+    width: 100%;
+    color: #0073e6;
+    min-height: 350px;
+    background-color: white;
+}
+
+.articol {
+    max-height: 250px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.articol1{
+    border-right: 2px solid #0073e6;
+}
+
+.articol2 {
+    border-right: 2px solid #0073e6;
+}
+
+.more:hover{
+    background-color:white;
+    color: #0073e6;
+    border: 1px solid #0073e6;
+}
+
+.more{
+    background-color:#0073e6;
+    text-decoration: none;
+    color:white;
+    padding: 7px;
+}
+
+.dreptunghi {
+    padding: 40px;
+    border: 2px solid white;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.titlu{
+    text-align: center;
+}
+
+.box2{
+    background-color: #0073e6;
+    color: white;
+    min-height: 500px;
+    width: 100%;  
+}
+
+.dreptunghi img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+.box3 {
+    background-color: white;
+    color: #0073e6;
+    width: 100%;
+    min-height: 600px;
+}
+
+.postare img{
+    width: 100%;
+}
+
+.postare{
+    margin: 20px;
+    padding: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+}
+
+footer .smallerFooter{
+    width: 75%;
+    border-top: 3px solid #0073e6;
+}
+
+.right {
+    float: left;
+}
+
+.icons{
+    float: right;
+    margin: 15px;
+}
+
+.icons i {
+    color: #0073e6;
+}
+
+footer p{
+    color: lightgray;
+    font-size: 12px;
+}
+

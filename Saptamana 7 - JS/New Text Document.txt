@@ -1,0 +1,2 @@
+https://checkio.org/profile/login/?next=%2Foauth%2Fauthorize-finish%2F%3Fredirect_uri%3Dhttps%253A%252F%252Fjs.checkio.org%252Fcomplete%252Fcheckio%252F%26response_type%3Dcode%26client_id%3DoTJeSgo0IM-WB3xvcDTbAnXH8b4HY_YyurkkEVFp%26confirmed_email%3DNone
+https://codewars.com

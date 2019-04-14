@@ -166,7 +166,7 @@ console.log(isPalindrome('level'))*/
 function displayArrayUntil(myArray, num){               //Nu am reusit sa termin.
   for(var i = 0; i < myArray.length; i++){
       if(myArray[i] === num){
-          return myArray.slice(0, num)
+          return myArray.slice(0, i)
       }
   }
 }

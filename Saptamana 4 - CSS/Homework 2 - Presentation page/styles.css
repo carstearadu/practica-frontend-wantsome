@@ -141,6 +141,7 @@ main {
 @media only screen and (max-width:768px) {
     .container{
         width: 100%;
+
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -174,5 +175,9 @@ footer .smallerFooter{
 footer p{
     color: lightgray;
     font-size: 12px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 

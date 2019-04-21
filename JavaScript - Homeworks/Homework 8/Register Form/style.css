@@ -1,0 +1,41 @@
+#form {
+    width: 500px;
+    border: 8px solid lightgray;
+}
+
+#formcontent {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    width: 450px;
+}
+
+.textinput {
+    width: 450px;
+    background-color: #fffaf6;
+    border: 1px solid lightgray;
+   
+}
+
+.labels {
+    color: #8a8988;
+    font-weight: bold;
+    font-size: 14px;    
+}
+
+#button {
+    background-color: #262626;
+    color: white;
+    border: none;
+    width: 450px;
+    margin-top: 30px;
+    height: 40px;
+    font-weight:bold;
+}
+
+#button:hover {
+    background-color: white;
+    color:  #262626;    
+    border: 2px solid #262626;
+}

@@ -12,22 +12,22 @@
                 <h2>Get your own site 42 sites account in seconds</h2>
                 
                 <label for='user' class='labels'>USERNAME:</label><br>
-                <p id='userError' style='display: none'>Please enter a username.</p>
+                <p id='userError' class='invalid' style='color: red'>Please enter a username.</p>
                 <input type='text' id='username' class='textinput' name='user'>
                 <p class='rules'>(Must be at least 4 characters long, letters and numbers only.</p>
 
                 <label for='emailaddress' class='labels'>EMAIL ADDRESS:</label><br>
-                <p id='emailError' style='display: none'>Please enter a valid e-mail address.</p>
+                <p id='emailError' class='invalid' style='color: red'>Please enter a valid e-mail address.</p>
                 <input type='email' id='email' class='textinput' name='emailaddress'> 
                 <p class='rules'>We send your registration email to this address. (Double-check you email address before continuing</p>
 
                 <label for='firstN' class='labels'>FIRST NAME:</label><br>
-                <p id='firsNameError' style='display: none'>Please enter your first name.</p>
+                <p id='firsNameError' class='invalid' style='color: red'>Please enter your first name.</p>
                 <input type='text' id='firstName' class='textinput' name='firstN'>
                 <p class='rules'>(Must be input.)</p>
 
                 <label for='lastN' class='labels'>LAST NAME:</label><br>
-                <p id='lastNameError' style='display: none'>Please enter your last name.</p>
+                <p id='lastNameError' class='invalid' style='color: red'>Please enter your last name.</p>
                 <input type='text' id='lastName' class='textinput' name='lastN'>
                 <p class='rules'>(Must be input.)</p>
 
@@ -35,14 +35,14 @@
                 <input type='text' id='nickname' class='textinput' name='nick'><br><br>
                 
                 <label for='phoneNumber' class='labels' >PHONE:</label><br>
-                <p id='phoneError' style='display: none'>Please enter a phone number.</p>
+                <p id='phoneError' class='invalid' style='color: red'>Please enter a phone number.</p>
                 <input type='number' id='phone' class='textinput' name='phoneNumber'>
                 <p class='rules'>(Must be at least 10 characters, numbers only.)</p>
 
                 <input type='radio' name='final'><span class='labels'>GIMME A SITE!</span><br>
                 <input type='radio' name='final'><span class='labels'>JUST A USERNAME, PLEASE.</span><br>
 
-                <button id='button' onclick='submitError()'>NEXT</button>
+                <button id='button' onclick="checkForm(); submitError()">NEXT</button>
 
             </div>
         </form>

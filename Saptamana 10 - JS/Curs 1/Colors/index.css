@@ -1,0 +1,13 @@
+span {
+    width: 10px;
+    heigh: 10px;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}

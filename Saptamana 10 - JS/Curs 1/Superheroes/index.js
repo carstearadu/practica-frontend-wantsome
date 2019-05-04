@@ -9,10 +9,10 @@ request.send();
 
 request.onload = function() {
     const superHeroes = request.response;
-
     populateHeader(superHeroes);
     showHeroes(superHeroes);
 }
+
 
 function populateHeader(jsonObj) {
     const myH1 = document.createElement('h1');
@@ -52,3 +52,5 @@ const showHeroes = (jsonObj) => {
         section.appendChild(article);
     }
 }
+
+console.log(request)

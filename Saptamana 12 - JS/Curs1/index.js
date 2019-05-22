@@ -61,7 +61,7 @@ console.log(computeExamPass([{
     surname: 'Jolie',
     age: 40,
     grade: 7
-},{
+}, {
     name: 'Eric',
     surname: 'Johns',
     age: 27,

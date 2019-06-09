@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "https://i0.wp.com/www.packthesuitcases.com/wp-content/uploads/2018/10/things-to-do-in-Brasov-1.jpg?zoom=1.25&resize=665%2C435&ssl=1",
+        "whatToRent": "Individual room",
+        "city": "Brasov",
+        "title": "Hotel Pensiunea Leo Brasov",
+        "reviews": "121"
+    },
+    {
+        "id": "2",
+        "imgUrl": "https://www.itsalltriptome.com/wp-content/uploads/strada-muresenilor-what-to-do-in-brasov.jpg",
+        "whatToRent": "Individual room",
+        "city": "Brasov",
+        "title": "Hotel Alinalex Brasov",
+        "reviews": "53"
+    },
+    {
+        "id": "3",
+        "imgUrl": "https://adevarul.ro/assets/adevarul.ro/MRImage/2014/09/07/540c34a70d133766a8ee3076/978x0.jpg",
+        "whatToRent": "Individual room",
+        "city": "Caracal",
+        "title": "Hotel hotel",
+        "reviews": "-2"
+    },
+    {
+        "id": "4",
+        "imgUrl": "https://romanialibera.ro/imagini/880/660/crop/709139-1518021389-mai-multi-angajati-de-la-spitalul-penitenciar-rahova-cercetati-pentru-violenta-impotiva-detinutilor.jpg",
+        "whatToRent": "Individual cell",
+        "city": "Teleorman",
+        "title": "Pensiunea Liviu",
+        "reviews": "18847"
+    },
+    {
+        "id": "5",
+        "imgUrl": "https://i1.wp.com/www.nationalisti.ro/wp-content/uploads/2014/08/tigan-hot.png?w=493",
+        "whatToRent": "Whole facility",
+        "city": "Motca",
+        "title": "Hasmo Palace",
+        "reviews": "9999"
+    },
+    {
+        "id": "6",
+        "imgUrl": "https://gddhd.ro/wp-content/uploads/2017/05/spital-vulcan.jpg",
+        "whatToRent": "Individual room",
+        "city": "Vulcan",
+        "title": "Pensiunea Pensiune",
+        "reviews": "1"
+    },
+    {
+        "id": "7",
+        "imgUrl": "https://spynews.ro/uploads/modules/news/0/2019/5/14/198476/intrebareazileideundevinedenumireaorasuluibaicoi.jpg",
+        "whatToRent": "Individual room",
+        "city": "City Best",
+        "title": "Best Accomodation Ever",
+        "reviews": "195"
+    },
+    {
+        "id": "8",
+        "imgUrl": "http://www.constantablog.net/wp-content/uploads/ca.jpg",
+        "whatToRent": "Whole facility",
+        "city": "Constangeles",
+        "title": "Garsoniera cu 3 camere",
+        "reviews": "8"
+    }
+]
